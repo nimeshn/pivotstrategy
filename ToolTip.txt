@@ -1,0 +1,10 @@
+Function xlDATEDIF(Unit As String, Start_Date As Date, End_Date As Date) As String  
+xlDATEDIF = DateDiff(Unit, Start_Date, End_Date)  
+End Function 
+
+
+=xlDATEDIF("s","01-01-1970  00:00:00 AM", A1)
+
+https://subversion.assembla.com/svn/mydevelop/
+nimeshn
+C.my@n_c
